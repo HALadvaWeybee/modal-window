@@ -21,6 +21,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
+// Close the modal popup when I click in the outer area
 overLay.addEventListener('click', addHidden);
 
 // METHOD-1 show-modal
