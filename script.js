@@ -21,6 +21,8 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
+overLay.addEventListener('click', addHidden);
+
 // METHOD-1 show-modal
 for (let i = 0; i < showModal.length; i++) {
   showModal[i].addEventListener('click', () => {
@@ -29,10 +31,3 @@ for (let i = 0; i < showModal.length; i++) {
   });
 }
 
-// METHOD-2 show-modal
-// showModal.forEach(Modal => {
-//     Modal.addEventListener('click', () => {
-//         modal.classList.remove('hidden');
-//         overLay.classList.remove("hidden");
-//     })   
-// })
